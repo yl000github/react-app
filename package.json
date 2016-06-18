@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "babel-browser": "^6.1.19",
+    "babel-core": "^6.9.1",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.0.0",
+    "material-ui": "^0.15.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.3"
+  }
+}

@@ -1,0 +1,22 @@
+<html>
+<head></head>
+<body></body>
+<!-- <script type="text/javascript" src="node_modules/babel-core/lib/api/browser.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.24/browser.min.js"></script>
+<script type="text/babel">
+	class A{
+		show(){
+			console.log("hello");
+		}
+	}
+	var a=new A();
+	a.show();
+	class B extends A{
+		show(){
+			console.log("this is b")
+		}
+	}
+	var b=new B();
+	b.show();
+</script>
+</html>
